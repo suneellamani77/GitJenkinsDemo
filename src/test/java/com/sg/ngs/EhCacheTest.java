@@ -13,6 +13,13 @@ public class EhCacheTest {
 		Assert.assertEquals("both are not equal", 16, c);
 	}
 	
+	@Test
+	public void substraction() {
+		int a = 8;
+		int b = 7;
+		int c = a - b;
+		Assert.assertEquals("The result is not correct", 1, c);
+	}
 	
 
 }
