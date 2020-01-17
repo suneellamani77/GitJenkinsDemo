@@ -10,7 +10,7 @@ public class EhCacheTest {
 		int a = 7;
 		int b = 8;
 		int c = a + b;
-		Assert.assertEquals("both are not equal", 16, c);
+		Assert.assertEquals("both are not equal", 15, c);
 	}
 	
 	@Test
